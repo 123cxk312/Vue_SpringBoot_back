@@ -1,0 +1,6 @@
+DB_URL: jdbc:mysql://127.0.0.1:3306/grade_management?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+DB_USERNAME: root
+DB_PASSWORD: your-mysql-password
+
+JWT_SECRET: change-this-secret-before-production-32-chars
+JWT_TTL: 604800000
